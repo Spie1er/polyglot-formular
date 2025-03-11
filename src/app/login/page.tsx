@@ -13,7 +13,7 @@ const AuthPage = () => {
   const { t } = useTranslation()
 
   return (
-    <div className='min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900'>
+    <div className='flex items-center justify-center bg-gray-100 dark:bg-gray-900 mt-20'>
       <div className='bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg w-full max-w-md'>
         <h2 className='text-3xl font-bold text-gray-800 dark:text-white text-center'>
           {isSignup ? t('createAccount') : t('welcomeBack')}
