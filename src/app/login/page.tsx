@@ -3,7 +3,7 @@
 import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { useTranslation } from 'react-i18next'
-import PrimaryButton from '@component/components/ui/buttons/PrimaryButton'
+import PrimaryButton from '@src/components/ui/buttons/PrimaryButton'
 
 const AuthPage = () => {
   const searchParams = useSearchParams()

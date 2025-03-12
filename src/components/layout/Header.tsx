@@ -2,8 +2,8 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import ThemeSwitcher from '@component/components/ui/ThemeSwitcher'
-import LanguageSwitcher from '@component/components/ui/LanguageSwitcher'
+import ThemeSwitcher from '@src/components/ui/ThemeSwitcher'
+import LanguageSwitcher from '@src/components/ui/LanguageSwitcher'
 import { useTranslation } from 'react-i18next'
 
 interface HeaderProps {

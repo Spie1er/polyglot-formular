@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
-import Header from '@component/components/layout/Header'
-import Footer from '@component/components/layout/Footer'
+import Header from '@src/components/layout/Header'
+import Footer from '@src/components/layout/Footer'
 import './globals.css'
-import I18nProvider from '@component/components/providers/I18nProvider'
+import I18nProvider from '@src/components/providers/I18nProvider'
 
 export const metadata: Metadata = {
   title: 'Some very cool new app ',
