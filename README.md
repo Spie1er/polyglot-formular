@@ -1,6 +1,6 @@
 # Formular
 
-Formular is a web application built for **Polyglot+**, a translation agency, to assist in generating translator formulas for **notary publics**. The application allows users to create, manage, and generate structured bilingual documents efficiently.
+Formular is a web application built for **Polyglot+**, a translation agency, to assist in generating translator formulas for **notary publics**. The application allows users to create, manage, and generate structured bilingual document efficiently.
 
 ## Features
 
@@ -45,4 +45,4 @@ This project is licensed under [MIT License](LICENSE).
 
 ---
 
-🥐 _We Bake The Best Apps_
+👨🏻‍💻 _Bakde by Codelia Studio_

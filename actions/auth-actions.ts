@@ -58,7 +58,8 @@ export const signup = async (
         data: {
           email,
           name,
-          password: hashedPssword
+          password: hashedPssword,
+          emailVerified: null
         }
       })
 
@@ -109,6 +110,7 @@ export const login = async (
       return { success: 'loginSuccess' }
     } catch (error) {
       if (error instanceof AuthError) {
+        //TODO Check for additional error scenarios
         switch (error.type) {
           case 'CredentialsSignin':
             return {
