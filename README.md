@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Formular
 
-## Getting Started
+Formular is a web application built for **Polyglot+**, a translation agency, to assist in generating translator formulas for **notary publics**. The application allows users to create, manage, and generate structured bilingual documents efficiently.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **User Authentication** (Email/Password & Google Sign-In)
+- **Multi-language Support** using `i18next`
+- **Dynamic Form Generation** for translators
+- **User Profiles & Session Management**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js 15** - Framework for server-side rendering and routing
+- **React 19** - UI development
+- **TypeScript** - Static typing
+- **Prisma** - Database ORM
+- **NextAuth.js** - Authentication
+- **Tailwind CSS 4** - Styling
+- **i18next** - Internationalization
+- **React Icons** - Icon set
+- **React Toastify** - Notifications
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation & Setup
 
-## Learn More
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-repo/formular.git
+   cd formular
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Set up environment variables (e.g., database URL, authentication keys).
+4. Run the development server:
+   ```sh
+   npm run dev
+   ```
+5. Open `http://localhost:3000` in your browser.
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under [MIT License](LICENSE).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🥐 _We Bake The Best Apps_
