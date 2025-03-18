@@ -32,7 +32,7 @@ const SecondaryButton = (props: SecondaryButtonProps) => {
       type={props.type || 'submit'}
       className={`bg-gray-500 text-white rounded hover:bg-gray-600 transition duration-300 
         ${getSizeClasses()} ${props.isFull ? 'w-full' : ''}
-        ${props.disabled ? 'opacity-50 cursor-not-allowed' : ''}`}
+        ${props.disabled ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}`}
       disabled={props.disabled}
       onClick={props.onClick}
     >

@@ -3,6 +3,8 @@ import Header from '@src/components/layout/Header'
 import Footer from '@src/components/layout/Footer'
 import './globals.css'
 import I18nProvider from '@src/components/providers/I18nProvider'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 export const metadata: Metadata = {
   title: 'Some very cool new app ',
@@ -11,7 +13,6 @@ export const metadata: Metadata = {
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   const isAuthenticated = false
-
   return (
     <html lang='en' className='dark'>
       <body
@@ -19,6 +20,11 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         suppressHydrationWarning
       >
         <I18nProvider>
+          <ToastContainer
+            position='bottom-right'
+            autoClose={3000}
+            theme={'colored'}
+          />
           <Header isAuthenticated={isAuthenticated} />
           <main className='flex-1 container mx-auto px-4 py-6'>{children}</main>
           <Footer />

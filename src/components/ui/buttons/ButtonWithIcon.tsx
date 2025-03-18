@@ -39,13 +39,19 @@ const ButtonWithIcon = (props: ButtonWithIconProps) => {
       type={props.type || 'submit'}
       className={`${colorClass} text-white rounded transition duration-300 flex items-center justify-center 
          ${getSizeClasses()} ${props.isFull ? 'w-full' : ''} 
-         ${props.disabled ? 'opacity-50 cursor-not-allowed' : ''}`}
+         ${
+           props.disabled ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'
+         }`}
       disabled={props.disabled}
       onClick={props.onClick}
     >
-      {!props.loading && props.icon && props.iconDirection !== 'right' && <span>{props.icon}</span>}
+      {!props.loading && props.icon && props.iconDirection !== 'right' && (
+        <span>{props.icon}</span>
+      )}
       {props.loading ? t('buttonLoading') : props.text}
-      {!props.loading && props.icon && props.iconDirection === 'right' && <span>{props.icon}</span>}
+      {!props.loading && props.icon && props.iconDirection === 'right' && (
+        <span>{props.icon}</span>
+      )}
     </button>
   )
 }

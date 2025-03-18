@@ -7,10 +7,10 @@ const resources = {
       signup: 'Signup',
       login: 'Login',
       username: 'Username',
+      name: 'Name',
       email: 'Email',
       password: 'Password',
       projectTitle: 'Project Y',
-      loginFail: 'Invaild Credentials. Please try again',
       loginSuccess: 'You logged in the system sucessfully',
       isRequired: ' is required',
       buttonLoading: 'loading...',
@@ -65,7 +65,22 @@ const resources = {
       createAccount: 'Create account',
       welcomeBack: 'Welcome back',
       signInToYourAccount: 'Sign in to your account',
-      signUpToGetStarted: 'Sign up to get started'
+      signUpToGetStarted: 'Sign up to get started',
+      enterValidEmail: 'Please, enter a valid email',
+      enterValidPassword: 'Minimum 8 symbols, minimum 1 number',
+      emailAlreadyExists: 'Email is already registered',
+      notAuthenticatedCheckEmail:
+        'Could not authenticate user. Please, check email address.',
+      notAuthenticatedCheckPassword:
+        'Could not authenticate user. Please, check your password.',
+      loginProcess: 'Logging in...',
+      registerProcess: 'Registering...',
+      successUserCreation: 'User created successfully',
+      enterValidName: 'Name must be at least 2 symbols',
+      noSuchUser: 'User not found',
+      confirmEmailAddress: 'Please, confirm email address',
+      invalidCredentials: 'Email or password is incorrect',
+      loginWithGoogle: 'Google Sign In'
     }
   },
   ka: {
@@ -73,10 +88,10 @@ const resources = {
       signup: 'რეგისტრაცია',
       login: 'შესვლა',
       username: 'მომხმარებელი',
+      name: 'სახელი',
       email: 'ელ.ფოსტა',
       password: 'პაროლი',
       projectTitle: 'პროექტი Y',
-      loginFail: 'მონაცემები არასწორია. გთხოვთ, სცადოთ თავიდან',
       loginSuccess: 'თქვენ წარმატებით შეხვედით სისტემაში',
       isRequired: ' სავალდებულო ველია',
       buttonLoading: 'იტვირთება...',
@@ -131,7 +146,22 @@ const resources = {
       createAccount: 'შექმენით ანგარიში',
       welcomeBack: 'მოგესალმებით',
       signInToYourAccount: 'შედით სისტემაში',
-      signUpToGetStarted: 'დარეგისტრირდით სისტემაში შესასვლელად'
+      signUpToGetStarted: 'დარეგისტრირდით სისტემაში შესასვლელად',
+      enterValidEmail: 'გთხოვთ, შეიყვანოთ ვალიდური ელ.ფოსტის მისამართი',
+      enterValidPassword: 'მინიმუმ 8 სიმბოლო, მინიმუმ 1 ციფრი',
+      emailAlreadyExists: 'ელ.ფოსტა უკვე რეგისტრირებულია',
+      notAuthenticatedCheckEmail:
+        'ავტორიზაცია წარუმატებელია. გთხოვთ შეამოწმოთ მონაცემები.',
+      notAuthenticatedCheckPassword:
+        'ავტორიზაცია წარუმატებელია. გთხოვთ შეამოწმოთ პაროლი.',
+      loginProcess: 'მუშავდება...',
+      registerProcess: 'მუშავდება...',
+      successUserCreation: 'მომხმარებელი წარმატებით შეიქმნა',
+      enterValidName: 'სახელი უნდა იყოს მინიმუმ 2 სიმბოლო',
+      noSuchUser: 'ასეთი მომხმარებელი არ არსებობს',
+      confirmEmailAddress: 'გთხოვთ, გადაამოწმოთ ელ.ფოსტა',
+      invalidCredentials: 'ელ.ფოსტა ან პაროლი არასწორია',
+      loginWithGoogle: 'Google-ით ავტორიზაცია'
     }
   }
 }

@@ -32,7 +32,9 @@ const DangerButton = (props: DangerButtonProps) => {
       type={props.type || 'submit'}
       className={`bg-red-500 text-white rounded hover:bg-red-600 transition duration-300
          ${getSizeClasses()} ${props.isFull ? 'w-full' : ''} 
-         ${props.disabled ? 'opacity-50 cursor-not-allowed' : ''}`}
+         ${
+           props.disabled ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'
+         }`}
       disabled={props.disabled}
       onClick={props.onClick}
     >
